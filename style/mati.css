@@ -1,0 +1,109 @@
+html {
+        background-color: #191919;
+	color: white;
+}
+
+.realtable {
+	color: black;
+	background-color: white;
+}
+
+@font-face {
+    font-family: 'formation';
+    src: url('/fonts/formation_sans_regular.woff2') format('woff2'),
+         url('/fonts/formation_sans_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* HEADER */
+.header {
+        height: 50px;
+        width: 100%;
+        overflow: hidden;
+        background-color: rgba(230,230,230,0.25);
+        color: black;
+        opacity: 1;
+        padding: 10px 0px;
+        display: inline-block;
+	vertical-align: middle;
+}
+
+.header a:hover {
+        font-size: 18px;
+        font-family: 'formation';
+        background-color: #ddd;
+        color: white;
+        display: inline-block;
+	vertical-align: middle;
+}
+
+.header a {
+        font-size: 18px;
+        font-family: 'formation';
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        line-height: 25px;
+        border-radius: 4px;
+        display: inline-block;
+	vertical-align: middle;
+}
+
+/* ---------- */
+
+.a2:hover {
+        font-size: 18px;
+        font-family: 'formation';
+        background-color: #ddd;
+        color: white;
+        display: inline-block;
+        vertical-align: middle;
+}
+
+.a2 {
+	background-color: rgba(230,230,230,0.25);
+        font-size: 18px;
+        font-family: 'formation';
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        line-height: 25px;
+        border-radius: 4px;
+        display: inline-block;
+        vertical-align: middle;
+}
+
+
+.lockbutton {
+        border:none;
+	background: none;
+}
+footer {
+        font-family: 'formation';
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(230,230,230,0.25);
+        color: white;
+        opacity: 1;
+        height: 50px;
+	width: 100%;
+        font-size: 18px;
+        text-align: center;
+	display: inline-block;
+}
+.centered {
+        vertical-align: middle;
+        position: fixed;
+        width: 500px;
+        height: 200px;
+        margin: 20% -5%; /* Will not center vertically and won't work in IE6/7. */
+        left: 0;
+        right: 0;
+}
