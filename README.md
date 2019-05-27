@@ -13,13 +13,13 @@ Kasutatud registration form: https://github.com/simfatic/registrationform
 Töökorra tagamiseks kontrolli järgmisi faile ja täida andmebaasi väljad:
 
 
-user-info.php
+*user-info.php
 
 
-deluser.php
+*deluser.php
 
 
-admin-page.php
+*admin-page.php
 
 
-include/membersite_config.php
+*include/membersite_config.php
